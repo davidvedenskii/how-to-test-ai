@@ -5,7 +5,7 @@ Welcome! This repository contains **all materials** for the *How to Test A
 ---
 ## Branch‑per‑Day layout 🗂️
 
-Instead of sub‑folders, **each training day now lives in its own Git branch**:
+**Each training day lives in its own Git branch**:
 
 | Branch | What you’ll find |
 |--------|------------------|
