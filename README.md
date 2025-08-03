@@ -5,7 +5,7 @@ Welcome! This repository houses all materials for the **How to Test AI Apps** co
 | Folder | What you’ll find |
 |--------|------------------|
 | `day-01-ai-fundamentals-and-challenges/` | Hands-on prompt-testing challenges (security, hallucination, bias, etc.). |
-|  |  |
+| `day-02-promptfoo-basics` | Promptfoo setup & basics |
 
 **How to use this repo**  
 > 1. **Get the code:**  
