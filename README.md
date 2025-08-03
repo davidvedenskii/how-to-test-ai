@@ -38,4 +38,4 @@ Welcome! This repository contains **all materials** for the *How to Test A
 
    Every branch has its own `README.md` at the root that explains objectives, setup, and deliverables.
 
-4. **Follow the instructions & have fun breaking—then fixing—LLMs! 🚀
+4. **Follow the instructions & have fun breaking—then fixing—LLMs!** 🚀
