@@ -7,6 +7,8 @@ Yesterday you explored common failure modes of LLMs; today you’ll learn how to
 
 ## 0  📦 Install Promptfoo
 
+Here is the official [Promptfoo documentation](https://www.promptfoo.dev/docs/intro/). Always refer to it whenever you need details.
+
 Pick **one** of the methods below (all give the same CLI):
 
 | Package manager | Command |
