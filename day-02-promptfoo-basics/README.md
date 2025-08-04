@@ -10,6 +10,8 @@ Here is the official [Promptfoo documentation](https://www.promptfoo.dev/docs/in
 
 ## 0  📦 Install Promptfoo
 
+Here is the official [Promptfoo documentation](https://www.promptfoo.dev/docs/intro/). Always refer to it whenever you need details.
+
 Pick **one** of the methods below (all give the same CLI):
 
 | Package manager | Command |
