@@ -23,6 +23,64 @@ promptfoo --version
 
 ---
 
+
+##  🛠️ Quick Project Setup
+
+1. **Create a workspace folder** (anywhere you like) and move into it:
+
+   ```bash
+   # macOS / Linux
+   mkdir promptfoo-demo && cd promptfoo-demo
+   ```
+   ```powershell
+   # Windows (Command Prompt)
+   mkdir promptfoo-demo && cd promptfoo-demo
+   ```
+
+2. **Initialize Promptfoo** in the empty folder:
+
+   ```bash
+   promptfoo init
+   ```
+
+   This scaffolds a minimal **`promptfooconfig.yaml`**.  
+   If the file appears, Promptfoo is now configured for this directory. 🎉
+
+3. **Run your first evaluation**:
+
+   ```bash
+   promptfoo eval
+   ```
+
+   > On the first run you’ll likely see errors about missing API keys.
+
+4. **Set your OpenAI key**, then rerun the evaluation:
+
+   ```bash
+   # macOS / Linux
+   export OPENAI_API_KEY="sk-••••••••••"
+   ```
+   ```powershell
+   # Windows (Command Prompt)
+   set OPENAI_API_KEY=sk-********
+   ```
+
+   ```bash
+   promptfoo eval      # Errors should now be 0
+   ```
+
+5. **Open the results in a browser** :
+
+   ```bash
+   promptfoo view
+   ```
+
+   Press **`Ctrl + C`** in the terminal to shut down the local web server when you’re done.
+
+
+---
+
+
 ## 1  🎯 Prompts
 
 Learn how Promptfoo sources and expands prompts.
@@ -33,7 +91,6 @@ Learn how Promptfoo sources and expands prompts.
 | **Multiline prompts** | Use the `|` block syntax for long instructions |
 | **Variable prompts** | Inject `${variable}` placeholders at runtime |
 | **File-based prompts** | Keep large prompts in separate `.prompt` / `.md` files |
-
 
 ---
 
