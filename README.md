@@ -11,7 +11,7 @@ Welcome! This repository contains **all materials** for the *How to Test A
 |--------|------------------|
 | `day-01-ai-fundamentals-and-challenges` | Hands‑on prompt‑testing challenges (security, hallucination, bias, etc.). |
 | `day-02-promptfoo-basics`              | Promptfoo installation & basics (prompts, providers, assertions/metrics). |
-
+| `day-03-promptfoo-advanced`              | Promptfoo: Assertion Sets, Weights, Metrics. |
 ---
 ## How to use this repo
 
@@ -30,6 +30,9 @@ Welcome! This repository contains **all materials** for the *How to Test A
 
    # Example: Day 2 materials
    git checkout day-02-promptfoo-basics
+
+   # Example: Day 3 materials
+   git checkout day-03-promptfoo-advanced
    ```
 
    > Or use the *Branch* menu on GitHub to browse files without cloning.
