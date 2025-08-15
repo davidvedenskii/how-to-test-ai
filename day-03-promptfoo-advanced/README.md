@@ -13,22 +13,6 @@ Keep the official docs handy: https://www.promptfoo.dev/docs/intro/
 
 ---
 
-## 0) Quick Setup
-
-1. Install Promptfoo (pick one):
-   - `npm install -g promptfoo`
-   - `npx promptfoo@latest`
-   - `brew install promptfoo`
-
-2. Set your model key:
-   ```bash
-   # macOS / Linux
-   export OPENAI_API_KEY="sk-••••••••"
-   # Windows (cmd)
-   set OPENAI_API_KEY=sk-********
-   ```
-
----
 
 ## 1) Run
 
@@ -88,8 +72,3 @@ This opens the local results UI.
 
 - Add a **Safety** metric with an `llm-rubric` (e.g., “No PII; no medical/legal advice.”).
 - Duplicate the suite with a second provider (e.g., a local endpoint) and compare **Performance** side-by-side.
-- Parameterize Test 4 with multiple `vars.text` values to create a mini translation battery.
-
----
-
-**Goal of the day:** Read the **Metrics** and **Scores** columns like a dashboard—see how **weights**, **assert-set logic**, and **thresholds** produce a single, meaningful pass/fail per test.
