@@ -1,0 +1,8 @@
+  - id: openai:gpt-4o                               # commercial
+    config:
+      temperature: 0.9
+      max_tokens: 150
+  - id: anthropic:messages:claude-sonnet-4-20250514 # commercial
+    config:
+      temperature: 0.9
+      max_tokens: 150

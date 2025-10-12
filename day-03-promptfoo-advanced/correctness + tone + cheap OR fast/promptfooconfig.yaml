@@ -1,31 +1,40 @@
 # 4) French greeting: correctness + tone + (cheap OR fast)
 description: "Require a friendly French greeting that includes 'Bonjour' and stays within budget (either cheap or fast)."
 providers:
-  - openai:gpt-4o-mini
+  - file://../providers.yaml
 
 prompts:
   - "Greet the user in French."
 
 tests:
-  - threshold: 0.8
-    assert:
-      - type: contains
-        value: "Bonjour"
-        weight: 2
-        metric: Correctness
-      - type: llm-rubric
-        value: "Tone is friendly and the text is in French."
-        weight: 1
-        metric: Tone
-      - type: answer-relevance
-        threshold: 0.8
-        weight: 1
-        metric: Topicality
+  - assert:
       - type: assert-set
-        threshold: 0.5
-        metric: Performance
+        # The overall test passes if the weighted average of the
+        # assertions below is at least 0.8
+        threshold: 0.7
+        metric: OverallQuality
         assert:
+          # All individual checks are now siblings in this list
+          - type: contains
+            value: "Bonjour"
+            weight: 1
+            metric: Correctness
+
+          - type: llm-rubric
+            value: "Tone is friendly and the text is in French."
+            weight: 1
+            metric: Tone
+
+          - type: answer-relevance
+            threshold: 0.2
+            weight: 1
+            metric: Topicality
+
           - type: cost
             threshold: 0.0008
+            metric: Performance-Cost # Optional: give it a metric name
+
           - type: latency
-            threshold: 150
+            threshold: 1000
+            weight: 6
+            metric: Performance-Latency # Optional: give it a metric name
