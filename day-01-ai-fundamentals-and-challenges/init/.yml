@@ -1,0 +1,2 @@
+${{ secrets.ANTHROPIC_API_KEY }}
+${{ secrets.OPEN_API_KEY }}
