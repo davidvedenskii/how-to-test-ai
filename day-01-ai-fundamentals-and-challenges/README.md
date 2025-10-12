@@ -33,4 +33,4 @@ Add columns for latency, token usage, etc., if useful.
 | `challenge-3-performance-consistency.md` | Performance consistency |
 | `challenge-4-context-limit.md` | Context-window limits |
 | `challenge-5-values-alignment.md` | Human-values alignment |
-| `challenge-6-compliance.md` | Regulatory & policy compliance |
+| `challenge-6-compliance.md` | Regulatory & policy compliance | 
