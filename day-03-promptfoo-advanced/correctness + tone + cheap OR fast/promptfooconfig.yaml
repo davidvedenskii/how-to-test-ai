@@ -11,7 +11,7 @@ tests:
       - type: assert-set
         # The overall test passes if the weighted average of the
         # assertions below is at least 0.8
-        threshold: 0.7
+        threshold: 0.9
         metric: OverallQuality
         assert:
           # All individual checks are now siblings in this list
@@ -35,6 +35,6 @@ tests:
             metric: Performance-Cost # Optional: give it a metric name
 
           - type: latency
-            threshold: 1000
-            weight: 6
+            threshold: 2000
+            weight: 1
             metric: Performance-Latency # Optional: give it a metric name

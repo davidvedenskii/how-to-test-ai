@@ -1,0 +1,8 @@
+description: "testing csv test case loading"
+
+prompts:
+  - "{{question}}"
+providers:
+  - file://../providers.yaml
+
+tests: file://test_cases_multiple.csv
