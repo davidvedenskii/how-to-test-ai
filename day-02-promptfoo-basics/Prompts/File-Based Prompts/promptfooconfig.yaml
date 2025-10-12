@@ -1,8 +1,7 @@
 # promptfooconfig.yaml
 description: "File-based prompt demo"
 providers:
-  - openai:gpt-4o                                 # OpenAI model ID
-  - anthropic:messages:claude-sonnet-4-20250514   # Claude Sonnet model ID
+  - file://../../Providers/providers.yaml
 
 prompts:
   # Each entry pulls a template from an external text file in ./prompts

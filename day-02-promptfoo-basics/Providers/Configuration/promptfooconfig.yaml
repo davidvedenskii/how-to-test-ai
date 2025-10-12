@@ -1,10 +1,7 @@
 # promptfooconfig.yaml
 description: "Config providers demo"
 providers:
-  - id: openai:gpt-4.1
-    config:
-      temperature: 0.7
-      max_tokens: 150
+  - file://../../Providers/providers.yaml
 
 prompts:
   - 'Translate the following text to French: "{{text}}"'

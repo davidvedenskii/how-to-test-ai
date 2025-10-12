@@ -1,6 +1,6 @@
 description: "Deterministic – contains"
 providers:
-  - openai:gpt-4o-mini
+    - file://../../../Providers/providers.yaml
 
 prompts:
   - "Greet the user in French."

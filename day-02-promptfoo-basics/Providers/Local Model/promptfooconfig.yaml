@@ -2,8 +2,7 @@
 description: "Local Llama-3 (LM Studio) + cloud models"
 
 providers:
-  - id: openai:gpt-4o                               # commercial
-  - id: anthropic:messages:claude-sonnet-4-20250514 # commercial
+  - file://../../Providers/providers.yaml
 
   # LOCAL MODEL served by LM Studio (OpenAI-compatible)
   - id: openai:chat                                 # generic chat endpoint
