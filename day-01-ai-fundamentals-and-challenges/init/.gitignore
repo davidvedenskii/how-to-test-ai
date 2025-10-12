@@ -1,0 +1,2 @@
+# Ignore the specific .yml file in the init folder
+init/.yml
