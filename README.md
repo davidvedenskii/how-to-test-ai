@@ -1,4 +1,4 @@
-# How to Test AI Apps
+# How to Test AI Apps 
 
 Welcome! This repository contains **all materials** for the *How to Test AI Apps* course.
 
