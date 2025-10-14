@@ -7,11 +7,11 @@ Welcome! This repository contains **all materials** for the *How to Test A
 
 **Each training day lives in its own Git branch**:
 
-| Branch | What you’ll find |
+| Branch | What you'll find |
 |--------|------------------|
 | `day-01-ai-fundamentals-and-challenges` | Hands‑on prompt‑testing challenges (security, hallucination, bias, etc.). |
 | `day-02-promptfoo-basics`              | Promptfoo installation & basics (prompts, providers, assertions/metrics). |
-| `day-03-promptfoo-advanced`              | Promptfoo: Assertion Sets, Weights, Metrics. |
+| `day-03-promptfoo-advanced`              | Promptfoo: Assertion Sets, Weights, Metrics, CSV bulk test data, Debugger. |
 ---
 ## How to use this repo
 
