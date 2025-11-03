@@ -1,4 +1,5 @@
 input,__expected
-"Hello world","contains: Hello"
-"Calculate 5 * 6","contains: 30"
-"How are you doing today","llm-rubric: Provides conversational response"
+"What is HomeFlo Project Overview","contains: https://engenious-team-r2tmn11s.atlassian.net/wiki/spaces/SD/pages/
+5242893/Project+charter"
+"Give me Stakeholder Information","contains: https://engenious-team-r2tmn11s.atlassian.net/wiki/spaces/SD/pages/
+5210113/Stakeholder+register"

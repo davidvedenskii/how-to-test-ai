@@ -1,0 +1,18 @@
+description: 'WeOptimize.ai - Testing'
+
+prompts:
+  - "{{question}}"
+
+providers:
+  - id: 'https://api.weoptimize.ai/chats/promptfoo'
+    config:
+      method: 'POST'
+      headers:
+        'Content-Type': 'application/json'
+        'x-api-key': '6e37c5dcf90692322057e2be4dd20addb06aa2cf6b485547432e88a0738dcf8c'
+      body:
+        email: 'davidvedenskii@gmail.com'
+        message: '{{prompt}}'
+      transformResponse: 'json.message'
+
+tests: file://test_cases_assertions.csv

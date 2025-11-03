@@ -1,0 +1,25 @@
+description: 'WeOptimize.ai - Testing'
+
+prompts:
+  - file://prompts.json
+
+providers:
+  - id: 'https://api.weoptimize.ai/chats/promptfoo/session'
+    config:
+      method: 'POST'
+      headers:
+        'Content-Type': 'application/json'
+        'x-api-key': '6e37c5dcf90692322057e2be4dd20addb06aa2cf6b485547432e88a0738dcf8c'
+      body:
+        email: 'davidvedenskii@gmail.com'
+        messages: '{{prompt}}'
+      responseParser: 'json.message'
+
+tests:
+  - vars:
+      ticket: HFLO-69
+    assert:
+      - type: contains
+        value: "Engenious"
+        metric: Correctness
+         
